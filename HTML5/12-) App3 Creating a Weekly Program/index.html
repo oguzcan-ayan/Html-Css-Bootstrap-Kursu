@@ -3,10 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Week</title>
+    <style>
+        body{
+            font-size: 50px;
+        }
+    </style>
 </head>
 <body>
-    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Weekdays</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="right">8.00</td>
+                <td colspan="5" align="center">Waking up</td>
+            </tr>
+            <tr>
+                <td>8.00-9.00</td>
+                <td colspan="5" align="center">Journey</td>
+            </tr>
+            <tr>
+                <td>9.00-15.00</td>
+                <td colspan="5" align="center">School</td>
+            </tr>
+            <tr>
+                <td>15.00-18.00</td>
+                <td rowspan="3" align="center">Home</td>
+                <td rowspan="2" align="center">Course</td>
+                <td rowspan="3" align="center">Meeting</td>
+                <td rowspan="2" align="center">Course</td>
+                <td rowspan="2" align="center">Wandering</td>
+            </tr>
+            <tr>
+                <td>18.00-21.00</td>
+            </tr>
+            <tr>
+                <td>21.00-23.00</td>
+                <td align="center">Home</td>
+                <td colspan="2" align="center">Studying</td>    <!--style="text-align:center;" is okay instead of align function--> 
+            </tr>
+            <tr>
+                <td>23.00-00.00</td>
+                <td colspan="5" align="center">Sleeping</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
 

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+    <style>
+        #password{
+            width: 50%;
+            color:  red;
+            border: 1px solid blue;
+        }
+        #username{
+            width: 200px;
+            color: darkgreen;
+            border: 1px solid pink;
+        }
+        #usersurname{
+            width: 500px;
+            color: gold;
+            border: 1px solid brown;
+        }
+        #city{
+            width: 20%;
+            color: aqua;
+            border: 1px solid orange;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    <form action="https://google.com">
+       -->
+       <form method="POST">
+        <!--
+        <form method="POST">
+        -->
+        <input type="text" name="username" id="username" placeholder="enter your name">
+        <br><br>
+        <input type="text" name="usersurname" id="usersurname" placeholder="enter your surname">
+        <br><br>
+        <input type="password" name="password" id="password" placeholder="password">
+        <br><br>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <br><br>        
+        <!--
+        <input type="text" name="" id="" value="Oguzcan Ayan">
+        -->
+        <select name="city" id="city">
+            <option value="Çorum">Çorum</option>
+            <option value="Samsun">Samsun</option>
+            <option value="Amasya">Amasya</option>
+            <option value="İstanbul">İstanbul</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
