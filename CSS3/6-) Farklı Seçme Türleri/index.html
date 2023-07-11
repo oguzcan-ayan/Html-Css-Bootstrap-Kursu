@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different Selecting Types</title>
+    <!--
+    <s>
+        a:link{
+            color: magenta;
+            font-size: 50px;
+            text-decoration: none;
+        }
+        a:hover{
+            color: lightseagreen;  
+            font-size: 100px;
+            text-decoration: none;
+        }   
+        a:active{
+            color: lightgreen;
+        }
+        a:visited{
+            color: coral;
+        }
+        p{
+            font-size: 50px;
+        }
+        p::first-letter{
+            color: red;
+            background: yellow;
+        }
+        p::after{
+            content: "Hello";
+            color: aqua;
+            background-color: blue;
+        }
+        p::before{
+            content: "Hi";
+            color: blueviolet;
+            background-color: crimson;
+        }
+        p::first-line{
+            background-color: chocolate;
+            color: fuchsia;
+        }
+        
+    </style>
+    -->
+    <!--
+    <style>
+        img[width="50%"]{ 
+            border: 10px solid yellow;
+        }
+    </style>
+        It can be title
+    -->
+    <!--
+     <style>
+        p{
+            font-size: 50px;
+        }
+        p[title^="This2"]{
+            color: rebeccapurple;
+            background-color: aqua;
+        }
+        p[title$="paragraph1"]{
+            color: red;
+            background-color: chartreuse;
+        }
+        p[title~="long"]{
+            color: yellowgreen;
+            background-color: blue;
+        }
+     </style>    
+     -->
+     <style>
+        a{
+            font-size: 50px;
+        }
+        .first:hover{
+            color: red;
+            background-color: aqua;
+        }
+        .second:active{
+            color: pink;
+            background-color: blue;
+        }   
+        a[href="https://www.youtube.com"]:visited{
+            color: goldenrod;
+        }
+     </style>
+</head>
+<body>
+     <!--a[href="https://www.google.com"][target="_blank"]:active{
+        color:pink;
+     }
+      a[href="https://www.google.com"]:hover{
+        color:red;
+        background:aqua;
+      }  
+      Bu şekilde istediğim gibi olmadı çünkü google linklerini ekranda tarattığım zaman
+      ikisininde arka plan kısmı aqua renginde gözüktü ben sadece hover pseudo class'ı ile
+      yazdığımın gözükmesini istemiştim. Olmayınca class selector yöntemini uyguladım
+    -->
+    <!--
+    <p>Oğuzcan Ayan </p>
+    <a href="https://google.com">Go to Google</a>
+    <br><br>
+    -->
+    <!--
+    <img src="Images/1003220.png" title="Avengers" width="60%" alt="">
+    <br><br>
+    <img src="Images/Volkswagen car.jpg" title="Volkswagen" width="50%" alt="">
+    <br><br>
+    -->
+    <!--
+    <p title="This1 is a low paragraph1">This is a low paragraph</p>
+    <p title="This2 is a middle paragraph2">This is a middle paragraph</p>
+    <p title="This3 is a long paragraph3">This is a long paragraph</p>
+    -->
+    <a class="first" href="https://www.google.com">Go to Google</a>
+    <br><br>
+    <a href="https://www.youtube.com" target="_blank">Go to Youtube</a>
+    <br><br>
+    <a class="second" href="https://www.google.com" target="_blank">Go to Google</a>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Selectors</title>
+    <!--
+    <style>
+        *{
+            color: red;
+            background-color: aqua;
+            font-size: 30px;
+        }
+    </style>
+    -->
+    <!--
+    <style>
+       div .paragraph1{
+            color: red;
+            background-color: aqua;
+        }
+        div p{
+            color: yellow !important;
+            background-color: yellowgreen !important;
+        }
+    </style>
+    -->
+    <!--
+    <style>
+        p,h2,div{
+            color: green;
+            background-color: yellow;
+        }   
+        h2{
+            color: red;
+            background-color: blue;
+        }
+    </style>
+    -->
+    <!--
+    <style>
+        div>p{
+            color: white;
+            background-color: purple;
+        }
+    </style>
+-->
+    <style>
+        #divwithout + div{
+            color: red;
+            background: black;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    <div class="container">
+        This is the div's in part
+        <p class="paragraph1">Paragraph 1</p>
+        <p class="paragraph2">Paragraph 2</p>
+        <p class="paragraph3">Paragraph 3</p>    
+    </div>
+    -->
+    <p id="divwithout">Paragraph without div</p>
+    <div class="container">
+        This is the div's in part
+        <p class="paragraph1">Paragraph 1</p>
+        <p class="paragraph2">Paragraph 2</p>
+        <p class="paragraph3">Paragraph 3</p>    
+    </div>
+    <div>
+        <p>Paragraph with div</p>
+    </div>
+    <div class="container">
+        <h2>This is the second div</h2>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
