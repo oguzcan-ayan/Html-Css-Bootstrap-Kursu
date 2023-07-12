@@ -1,0 +1,29 @@
+.div1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.div2{
+    font-weight: normal;
+    font-size: 20px;
+}
+p{
+    font-weight: 900;
+    font-weight: bold;
+    font-weight: lighter;
+    font-weight: normal;
+    font-weight: bolder;
+    font-weight: inherit;
+}
+p{
+    font-weight: initial;
+    font-weight: inherit;
+}
+
+
+
+
+
+
+
+
+
