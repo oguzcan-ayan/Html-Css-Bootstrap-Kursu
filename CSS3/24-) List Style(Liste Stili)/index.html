@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Style</title>
+    <style>
+        .ul1 li {
+            list-style: none;
+        }
+        .ul1 li::before{
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            list-style-image: url(Images/logoAyanCar.png);
+            background-size: 20px;
+            
+        }
+
+        .ul2 li {
+            list-style-type: lower-alpha;
+            list-style-position: outside;
+            list-style-image: url(Images/logoAyanCar.png);
+        }
+
+        .ul3 li{
+            list-style-type: square;
+        }
+
+        .ul4 li{
+            list-style-type: circle;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="ul1">
+        <li>Element1</li>
+        <li>Element2</li>
+        <li>Element3</li>
+        <li>Element4</li>
+    </ul>
+    <ul class="ul2">
+        <li>Element1</li>
+        <li>Element2</li>
+        <li>Element3</li>
+        <li>Element4</li>
+    </ul>
+    <ul class="ul3">
+        <li>Element1</li>
+        <li>Element2</li>
+        <li>Element3</li>
+        <li>Element4</li>
+    </ul>
+    <ul class="ul4">
+        <li>Element1</li>
+        <li>Element2</li>
+        <li>Element3</li>
+        <li>Element4</li>
+    </ul>
+</body>
+</html>
