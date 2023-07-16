@@ -6,59 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List Style</title>
     <style>
-        .ul1 li {
-            list-style: none;
-        }
-        .ul1 li::before{
-            content: '';
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            list-style-image: url(Images/logoAyanCar.png);
-            background-size: 20px;
-            
-        }
-
-        .ul2 li {
-            list-style-type: lower-alpha;
-            list-style-position: outside;
-            list-style-image: url(Images/logoAyanCar.png);
-        }
-
-        .ul3 li{
-            list-style-type: square;
-        }
-
-        .ul4 li{
-            list-style-type: circle;
-        }
+       .list1 li{
+        list-style-type: none;
+       }
+       .list1 li::before{
+        content: '';
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        background-image: url(Images/logoAyanCar.png);
+        background-position: center;
+        /*background-repeat: no-repeat;*/
+        background-size: 50px;
+        /*background-attachment: fixed;*/
+        border: 2px solid red;
+       }
+       .list2{
+        list-style-type: square;
+        list-style-position: inside;
+        list-style-image: url(Images/logoAyanCar.png);
+        list-style-image: none;
+       }
+       .list3{
+        list-style-type: circle;
+        list-style-position: outside;
+       }
+       .list4{
+        list-style-type: none;
+        list-style: circle inside none;
+        list-style-image: url(Images/logoAyanCar.png);
+        border: 2px solid black;
+       }
+       .list5{
+        list-style-type: lower-alpha;
+        list-style-image: url(Images/logoAyanCar.png);
+        list-style-position: inside;
+       }
     </style>
 </head>
-
 <body>
-    <ul class="ul1">
-        <li>Element1</li>
-        <li>Element2</li>
-        <li>Element3</li>
-        <li>Element4</li>
+    <ul class="list1">
+        List1
+        <li> Element1</li>
+        <li> Element2</li>
+        <li> Element3</li>
     </ul>
-    <ul class="ul2">
+    <ul class="list2">
+        List2
         <li>Element1</li>
         <li>Element2</li>
         <li>Element3</li>
-        <li>Element4</li>
     </ul>
-    <ul class="ul3">
+    <ul class="list3">
+        List3
         <li>Element1</li>
         <li>Element2</li>
         <li>Element3</li>
-        <li>Element4</li>
     </ul>
-    <ul class="ul4">
+    <ul class="list4">
+        List4
         <li>Element1</li>
         <li>Element2</li>
         <li>Element3</li>
-        <li>Element4</li>
+    </ul>
+    <ul class="list5">
+        <li>Element1</li>
+        <li>Element2</li>
+        <li>Element3</li>
     </ul>
 </body>
 </html>

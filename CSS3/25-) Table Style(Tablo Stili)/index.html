@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table Style</title>
+    <style>
+        table{
+            border-collapse: separate;
+            border-spacing: 20px 30px;
+            caption-side: bottom;
+            empty-cells: hide;
+            width: 100%;
+            border: 5px solid red;
+            table-layout: fixed;
+        }
+        table tr td{
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
-    
+    <table>
+        <caption>Color Table</caption>
+        <tr>
+            <td style="width: 20%;">Red</td>
+            <td style="width: 30%;">Yellow</td>
+            <td style="width: 40%;">Purple</td>
+        </tr>
+        <tr>
+            <td>Blueeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</td>
+            <td>Green</td>
+            <td></td>
+        </tr>
+    </table>
 </body>
 </html>
 
