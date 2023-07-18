@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+        }
+        
+        .blue{
+            background-color: blue;
+            position: relative;
+            z-index: 3;
+            border: 2px solid red;
+        }
+
+        .yellow{
+            background-color: yellow;
+            position: relative;
+            margin-top: -50px;
+            margin-left: 50px;
+            z-index: 2;
+            border: 2px solid black;
+        }
+
+        .green{
+            background-color: green;
+            position: relative;
+            margin-top: -300px;
+            margin-left: 150px;
+            z-index: 1;
+            border: 2px solid purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="blue">
+
+    </div>
+
+    <div class="yellow">
+
+    </div>
+
+    <div class="green">
+
+    </div>
+</body>
+</html>
