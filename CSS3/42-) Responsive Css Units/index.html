@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Units</title>
+    <style>
+        /*em, rem, %, vw, vh*/
+        /* html{
+            font-size: 15px;
+        } */
+        /* div{
+            font-size: 1.5em;
+        }
+        p{
+            font-size: 1.5em;
+            padding: 2em;
+        }
+         */
+
+        /*  div{
+            width: 40vw;
+            height: 20vh;
+            background-color: aqua;
+         } */
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+         .background{
+            background: url(ImagesBackground/pexels-andras-stefuca-17568716.jpg) center center no-repeat;
+            height: 100vh;
+            width: 100vw;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /*justify-content: center;*/
+            padding: 10rem;
+            
+         }
+         h1{
+            margin-bottom: 1rem;
+            font-size: 3rem;
+         }
+         p{
+            font-size: 2rem;
+            letter-spacing: 2px;
+            color: aqua;
+         }
+         @media(max-width:500px){
+            .background{
+                background-size: cover;
+            }
+            h{
+                margin-bottom: 0.5rem;
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+                letter-spacing: 1px;
+                display: none;
+            }
+         }
+
+    </style>
+</head>
+<body>
+    <!-- <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, recusandae.</p>
+    </div> -->
+
+    <div class="background">
+        <h1>Welcome to Our Site</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, placeat!</p>
+    </div>
+</body>
+</html>
