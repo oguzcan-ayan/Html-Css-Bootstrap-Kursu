@@ -1,0 +1,23 @@
+/* Mobile Navbar Section */
+#navbar{
+    flex-direction: column;
+    height: 8rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.75rem;
+    font-size: 1rem;
+    overflow: hidden;
+}
+#Category .items{
+    flex-direction: column;
+}
+#Category .items .item{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
