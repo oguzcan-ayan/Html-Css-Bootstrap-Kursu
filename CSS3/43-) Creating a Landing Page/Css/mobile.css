@@ -13,7 +13,11 @@
 #Category .items .item{
     width: 100%;
 }
-
+/* Mobile Films Section */
+.films .film{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
