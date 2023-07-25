@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables and Lists in Bootstrap</title>
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Lists -->
+   <!--  <div class="container">
+        <ul class="list-group" style="width: 18rem;">
+            <li class="list-group-item">HTML</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item active">JavaScript</li>
+            <li class="list-group-item">React</li>
+        </ul>
+    </div> -->
+    <!-- <div class="container">
+        <ul class="list-group list-group-horizontal" style="width: 18rem;">
+            <li class="list-group-item">HTML</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item active">JavaScript</li>
+            <li class="list-group-item">React</li>
+        </ul>
+    </div> -->
+    <!-- <div class="container">
+        <ul class="list-group" style="width: 18rem;">
+            <li class="list-group-item d-flex justify-content-between  align-items-center">HTML
+                <span class="badge bg-primary rounded-pill">20</span>
+            </li>
+            <li class="d-flex justify-content-between  align-items-center list-group-item">CSS
+                <span class="badge bg-secondary rounded-pill">50</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between  align-items-center">JavaScript
+                <span class="badge bg-danger rounded-pill">30</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between  align-items-center">React
+                <span class="badge bg-warning rounded-pill">40</span>
+            </li>
+        </ul>
+    </div> -->
+    <!-- Tables -->
+    <div class="container">
+        <table class="table table-bordered border-primary mt-5 text-center
+             table-striped table-hover" style="width: 40rem;">
+            <thead class="table-success text-light">
+                <!-- thead-dark özelliği bootstrap4 de çalışıyor fakat bootstrap5 ile gelen bir özellik
+                olan table class'ını thead kısmında da kullanabiliyoruz artık. -->
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Oğuzcan Ayan</td>
+                    <td>Computer Engineer</td>
+                    <td>3000</td>
+                </tr>
+                <tr class="table-danger">
+                    <th>2</th>
+                    <td>Oğuzcan Ayan</td>
+                    <td>Computer Engineer</td>
+                    <td>5000</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Oğuzcan Ayan</td>
+                    <td>Computer Engineer</td>
+                    <td>9000</td>
+                </tr>
+                <tr class="text-dark">
+                    <th>4</th>
+                    <td>Oğuzcan Ayan</td>
+                    <td>Computer Engineer</td>
+                    <td>4000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
