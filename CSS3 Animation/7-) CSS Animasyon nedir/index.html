@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Animasyon</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: black;
+        height: 100vh;
+        display: flex;
+        align-items: start;
+        /* justify-content: center; */
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: relative;
+        top: 0;
+        left: 0;
+     /*    animation-name: box;
+        animation-duration: 2s; */
+        /* animation-iteration-count: 3; */
+        /* animation-iteration-count: infinite; */
+     /*    animation-fill-mode: forwards;
+        animation-delay: 1.5s;
+        animation-direction: alternate-reverse;
+        animation-timing-function: ease-in-out; */
+        /* animation: box 5s 3 forwards 1.5s alternate-reverse ease-in-out; */
+        animation: box 5s 1.5s forwards ease-in;
+
+    }
+
+    button{
+        top: 0;
+        left: 0;
+        position: absolute;
+        opacity: 0;
+        animation: button 6s 2s forwards ease-out;
+    }
+    @keyframes box{
+       /*  from{
+            top: 0;
+            left: 0;
+        } */
+
+       /*  to{
+            width: 600px;
+
+        } */
+
+        25%{
+            top: 200px;
+            left: 0;
+        }
+        50%{
+            top: 200px;
+            left: 200px;
+        }   
+        75%{
+            top: 400px;
+            left: 200px;
+        }   
+        100%{
+            top: 400px;
+            left: 600px;
+        }
+    }
+    @keyframes button{
+
+        to{ 
+            top: 100px;
+            left: 100px;
+            opacity: 1;
+            
+        }   
+
+    }
+</style>    
+</head>
+<body>
+    
+    <div class="box">
+        <button>Click on</button>
+    </div>    
+
+</body>
+</html>
