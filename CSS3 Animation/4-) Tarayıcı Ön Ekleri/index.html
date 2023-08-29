@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarayıcı Ön Ekleri</title>
+<style>
+
+    div{
+        width: 200px;
+        height: 50px;
+        padding: 20px;
+        background-color: aqua;
+        
+        transition-property: width, background-color;
+        transition: 2s ease-in-out 0.5s;
+
+        -webkit-transition-property: width;
+        -webkit-transition: 2s ease-in-out 0.5s;
+
+        -o-transition-property: width;
+        -o-transition: 2s ease-in-out 0.5s;
+
+        -moz-transition-property: width;
+        -moz-transition: 2s ease-in-out 0.5s;
+    }
+    div:hover{
+        width: 500px;
+        background-color: red;
+    }
+</style>
+</head>
+<body>
+    
+    <div>First Transition</div>
+
+</body>
+</html>

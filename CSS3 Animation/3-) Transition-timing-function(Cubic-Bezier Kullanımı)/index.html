@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubic Bezier Kullanımı</title>
+<style>
+    div{
+        width: 200px;
+        height: 50px;
+        padding: 20px;
+        background-color: aqua;
+        transition: width background-color 1s ease 2s;
+        /* transition-property: width, background-color;
+        transition-duration: 2s;
+        transition-timing-function: cubic-bezier(0.9, 0.1, 0.1, 0.9);
+        transition-delay: 1s; */
+        /* transition: 1s background-color ease 0.5s; */
+    }
+    
+    div:hover{
+        width: 500px;
+        background-color: red;
+    }
+</style>
+</head>
+<body>
+    
+    <div>First Transition</div>
+
+</body>
+</html>
