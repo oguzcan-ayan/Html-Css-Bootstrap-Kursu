@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+main {
+  height: 100vh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+}
+main article {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  scroll-snap-align: start;
+}/*# sourceMappingURL=style.css.map */
