@@ -1,0 +1,49 @@
+.box {
+  background-color: #fff;
+  width: 400px;
+  height: 600px;
+}
+
+.box2 {
+  width: 350px;
+  height: 1800px;
+}
+
+.box3 {
+  background-color: red;
+}
+
+.box4 {
+  color: blue;
+}
+
+.box5 {
+  color: green;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.content {
+  font-size: 30px;
+}
+
+.box6 {
+  font-size: 30px;
+}
+
+.title2 {
+  color: #03cafc;
+  font-family: "Roboto", "sans-serif";
+}
+
+.institutional h1 {
+  color: #fcb103;
+  font-family: "Rubik", "sans-serif";
+}
+
+.institutional p {
+  color: #403f3e;
+  font-family: "Great vibes", "cursive";
+}/*# sourceMappingURL=variables.css.map */

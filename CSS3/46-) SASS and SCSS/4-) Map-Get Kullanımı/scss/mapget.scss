@@ -1,0 +1,31 @@
+
+$theme : (
+    "light" : #fff,
+    "gray" : gray,
+    "dark" : black
+);
+
+$thickness : (
+    "thin" : 300,
+    "normal" : 400,
+    "thick" : 500
+);
+
+body{
+    background-color: map-get($theme, "light");
+}
+
+h1{
+    color: map-get($theme, "dark");
+    font-weight: map-get($thickness, "thick");
+}
+
+
+
+
+
+
+
+
+
+

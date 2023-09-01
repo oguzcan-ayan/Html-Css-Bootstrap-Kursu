@@ -1,0 +1,14 @@
+.box {
+  float: left;
+  width: 100px;
+}
+
+.title {
+  float: left;
+  background-color: red;
+}
+
+.content {
+  background-color: blue;
+  color: #fff;
+}/*# sourceMappingURL=rules.css.map */
