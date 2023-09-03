@@ -1,0 +1,54 @@
+@mixin size{
+    width: 100px;
+    height: 100px;
+}
+@mixin size2($width, $height){
+    width: $width;
+    height: $height;
+}
+@mixin colour($backcolor, $color){
+    background-color: $backcolor;    
+    color: $color;
+}
+@mixin threepoints{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@mixin size3($width : null, $height : null){
+    width: $width;
+    height: $height;
+}
+@mixin size4($width, $height){
+    width: $width;
+    height: $height;
+}
+@mixin size5($width : null, $height : null){
+    width: $width;
+    height: $height;
+}
+.box{
+    float: left;
+    background-color: yellow;
+    @include size;
+}   
+
+.box2{
+    float: left;
+    @include size2(500px, 300px);
+    @include colour(gray, blue);
+    @include threepoints;
+}    
+
+.box3{
+    @include colour(wheat, red);
+    @include size3(300px, 300px);
+}
+.box4{
+    float: left;
+    @include size4($height : 400px, $width : 700px);
+}
+.box5{
+    @include colour(yellow, navy);
+    @include size5($height : 500px);
+}

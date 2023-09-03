@@ -1,0 +1,32 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.container div {
+  height: 50px;
+}
+.container .right {
+  float: left;
+  width: 300px;
+  background-color: aqua;
+}
+.container .left {
+  float: left;
+  width: 700px;
+  background-color: blueviolet;
+}
+.container .a {
+  float: left;
+  width: 333.3333333333px;
+  background-color: yellow;
+}
+.container .b {
+  float: left;
+  width: 250px;
+  background-color: green;
+}
+.container .c {
+  float: left;
+  width: 416.6666666667px;
+  background-color: navy;
+}/*# sourceMappingURL=function.css.map */

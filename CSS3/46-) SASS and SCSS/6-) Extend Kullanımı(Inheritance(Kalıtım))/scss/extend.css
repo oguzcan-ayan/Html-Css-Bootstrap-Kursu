@@ -1,0 +1,25 @@
+.message, .warning, .fail, .success {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  padding: 15px;
+  margin: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.success {
+  z-index: 1;
+  background-color: green;
+}
+
+.fail {
+  z-index: 2;
+  background-color: red;
+}
+
+.warning {
+  z-index: 3;
+  background-color: orange;
+}/*# sourceMappingURL=extend.css.map */

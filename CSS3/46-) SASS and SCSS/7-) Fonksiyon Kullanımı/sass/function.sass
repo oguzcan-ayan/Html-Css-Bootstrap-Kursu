@@ -1,0 +1,35 @@
+@function theme()
+    
+    @return #fff
+    
+body
+    background-color: theme()
+
+@function colour($type)
+    @if ($type == "light")
+        @return #fff    
+    @else if ($type == "dark") 
+        @return #000        
+    @else if ($type == "blue")
+        @return lightblue
+    @else 
+        @return gray    
+
+@function convertUnits($px)
+
+    @return $px / 16 + rem
+
+.box
+    background-color: colour("blue")
+    
+.header
+    font-size: convertUnits(32)
+
+
+
+
+
+
+
+
+
