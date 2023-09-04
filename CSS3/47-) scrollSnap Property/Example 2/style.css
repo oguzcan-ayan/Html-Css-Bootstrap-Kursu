@@ -6,14 +6,43 @@
 
 main {
   height: 100vh;
-  overflow-y: auto;
-  scroll-snap-type: y mandatory;
+  display: grid;
+  grid-template-columns: repeat(6, 100vw);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
 }
-main article {
+main > article {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 60px;
   scroll-snap-align: start;
+}
+main > article:nth-child(1) {
+  background-color: rgb(181, 124, 111);
+}
+main > article:nth-child(2) {
+  background-color: rgb(51, 14, 29);
+}
+main > article:nth-child(3) {
+  background-color: rgb(90, 5, 95);
+}
+main > article:nth-child(4) {
+  background-color: rgb(249, 110, 165);
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  flex-direction: column;
+}
+main > article:nth-child(4) article {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #eee;
+  scroll-snap-align: start;
+}
+main > article:nth-child(5) {
+  background-color: rgb(78, 231, 235);
+}
+main > article:nth-child(6) {
+  background-color: rgb(193, 161, 16);
 }/*# sourceMappingURL=style.css.map */

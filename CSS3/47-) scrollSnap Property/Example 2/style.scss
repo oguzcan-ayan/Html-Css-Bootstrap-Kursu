@@ -7,15 +7,33 @@
 
 main{
     height: 100vh;
-    overflow-y: auto;
-    scroll-snap-type: y mandatory;
-    article{
+    display: grid;
+    grid-template-columns: repeat(6, 100vw);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    >article{
         height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 60px;
         scroll-snap-align: start;
+        @for $i from 1 through 6 {
+            &:nth-child(#{$i}){
+                background-color: rgb(random(255), random(255), random(255));
+            @if ($i == 4){
+                    overflow-y: auto;
+                    scroll-snap-type: y mandatory;
+                    flex-direction: column;
+                    article{
+                        min-height: 100vh;
+                        width: 100%;
+                        background-color: #eee;
+                        scroll-snap-align: start;
+                    }    
+                }    
+            }
+        }
     }
 }
 
