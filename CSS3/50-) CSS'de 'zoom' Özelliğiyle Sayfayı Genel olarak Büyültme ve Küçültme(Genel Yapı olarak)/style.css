@@ -1,0 +1,39 @@
+ :root{
+    --zoom: 1;
+}
+/*
+body *{
+    zoom: var(--zoom);
+}
+
+.zoom, .zoom *{
+    zoom: 1;
+} */
+
+body *:not(.zoom):not(.zoom *){
+    zoom: var(--zoom);
+}
+
+header{
+    height: 100px;
+    background-color: #ccc;
+    color: #7c7512;
+    font-size: 20px;
+}
+
+.zoom{
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+

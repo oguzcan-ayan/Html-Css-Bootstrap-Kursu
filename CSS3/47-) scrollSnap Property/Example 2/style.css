@@ -20,16 +20,16 @@ main > article {
   scroll-snap-align: start;
 }
 main > article:nth-child(1) {
-  background-color: rgb(181, 124, 111);
+  background-color: rgb(167, 181, 45);
 }
 main > article:nth-child(2) {
-  background-color: rgb(51, 14, 29);
+  background-color: rgb(50, 44, 103);
 }
 main > article:nth-child(3) {
-  background-color: rgb(90, 5, 95);
+  background-color: rgb(159, 204, 61);
 }
 main > article:nth-child(4) {
-  background-color: rgb(249, 110, 165);
+  background-color: rgb(11, 79, 97);
   overflow-y: auto;
   scroll-snap-type: y mandatory;
   flex-direction: column;
@@ -41,8 +41,8 @@ main > article:nth-child(4) article {
   scroll-snap-align: start;
 }
 main > article:nth-child(5) {
-  background-color: rgb(78, 231, 235);
+  background-color: rgb(93, 83, 76);
 }
 main > article:nth-child(6) {
-  background-color: rgb(193, 161, 16);
+  background-color: rgb(233, 145, 219);
 }/*# sourceMappingURL=style.css.map */
