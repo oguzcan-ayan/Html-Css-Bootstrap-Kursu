@@ -1,0 +1,23 @@
+
+@colour1 : #fa6585;
+@colour2 : purple;
+
+body{
+    background-color: @colour1;
+}
+
+.test{
+    background-color: @colour2;
+}
+
+/* .test2{
+    .test;
+} */
+
+.test2:extend(.test){
+    color: limegreen;
+}
+
+
+
+

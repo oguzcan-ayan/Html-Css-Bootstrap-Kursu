@@ -1,0 +1,13 @@
+body {
+  background-color: #fa6585;
+}
+.test,
+.test2 {
+  background-color: purple;
+}
+/* .test2{
+    .test;
+} */
+.test2 {
+  color: limegreen;
+}
