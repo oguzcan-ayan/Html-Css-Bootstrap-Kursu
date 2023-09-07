@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css ile Family Tree Yapımı</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+    <input type="range" min="16" max="100" value="16" id="range">
+
+<div class="container">
+    <ul>
+        <li>
+            <input type="checkbox" id="frontend">
+            <label for="frontend">Front-end</label>
+        <ul>
+            <li>
+                <label for="">HTML</label>
+            </li>
+            <li>
+                <input type="checkbox" id="css">
+                <label for="css">CSS</label>
+                <ul>
+                    <li>
+                        <label for="">SASS</label>
+                    </li>
+                    <li>
+                        <label for="">SCSS</label>
+                    </li>
+                    <li>
+                        <label for="">LESS</label>
+                    </li>                    
+                    <li>
+                        <label for="">Stylus</label>
+                    </li>                
+                    <li>
+                        <label for="">Bootstrap</label>
+                    </li>
+                    <li>
+                        <label for="">Tailwind</label>
+                    </li>    
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" id="javascript">
+                <label for="javascript">Javascript</label>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="react">
+                        <label for="react">ReactJs</label>
+                        <ul>
+                            <li>
+                                <label for="">React Redux</label>
+                            </li>
+                            <li>
+                                <label for="">React Native</label>
+                            </li>
+                            <li>
+                                <label for="">Vite</label>
+                            </li>
+                            <li>
+                                <label for="">Atlassian</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label for="">VueJs</label>
+                    </li>
+                    <li>
+                        <label for="">AngularJs</label>
+                    </li>
+                    <li>
+                        <label for="">NextJs</label>
+                    </li>
+                    <li>
+                        <label for="">JQuery</label>
+                    </li>
+                </ul>
+            </li>
+                <li>
+                    <label for="">Typescript</label>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
